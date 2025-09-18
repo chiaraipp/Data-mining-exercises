@@ -44,6 +44,19 @@ Each notebook focuses on a specific dataset, illustrating the **steps from raw d
 - matplotlib
 - seaborn
 
+---
+## 🛠️ Installation
+
+To get started with these notebooks, follow these steps:
+1. **Clone the repository:**
+ ```bash
+    git clone https://github.com/YourGitHubUsername/YourRepoName.git
+    cd YourRepoName
+    ```
+3. **Create a virtual environment:**
+4. **Install dependencies:**
+5. **Launch Jupyter Notebook**
+---
 
 ## 🚀 Usage
 
