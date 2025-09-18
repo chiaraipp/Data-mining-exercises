@@ -48,14 +48,35 @@ Each notebook focuses on a specific dataset, illustrating the **steps from raw d
 ## 🛠️ Installation
 
 To get started with these notebooks, follow these steps:
-1. **Clone the repository:**
- ```bash
+## 🛠️ Installation
+
+To get started with these notebooks, follow these steps:
+
+1.  **Clone the repository:**
+    Open your terminal or command prompt and run:
+    ```bash
     git clone https://github.com/YourGitHubUsername/YourRepoName.git
-    cd YourRepoName
+    cd Data-Mining-Exercises
     ```
-3. **Create a virtual environment:**
-4. **Install dependencies:**
-5. **Launch Jupyter Notebook**
+
+2.  **Create a virtual environment:**
+    It's highly recommended to use a virtual environment to manage project dependencies.
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    ```
+
+3.  **Install dependencies:**
+    With your virtual environment activated, install all required Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Launch Jupyter Lab/Notebook:**
+    Finally, you can launch Jupyter and open the notebooks in your browser:
+    ```bash
+    jupyter notebook
+    ```
 ---
 
 ## 🚀 Usage
