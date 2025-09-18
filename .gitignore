@@ -1,0 +1,59 @@
+# Operating System files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Python bytecode and compilation artifacts
+*.pyc
+__pycache__/
+venv/             # Virtual environment folder (e.g., created by `python -m venv venv`)
+.venv/            # Another common name for virtual environment folder
+env/              # Yet another common name for virtual environment folder
+*.egg-info/
+.pytest_cache/    # pytest cache directory
+
+# Jupyter Notebook files
+.ipynb_checkpoints/ # Jupyter's auto-save checkpoints
+*.ipynb_checkpoints # (Older versions or specific setups)
+.jupyter/           # Jupyter config directory (if it's local to the repo)
+
+# IDE-specific files (Visual Studio Code, PyCharm, etc.)
+.vscode/          # VS Code files
+.idea/            # PyCharm files
+*.iml             # PyCharm specific
+.project          # Eclipse specific
+.settings/        # Eclipse specific
+.sublime-workspace # Sublime Text workspace files
+*.swp             # Vim swap files
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Data files (IMPORTANT: Adjust based on your project's data strategy)
+# Generally, you want to VERSION CONTROL smaller, cleaned datasets,
+# but IGNORE very large raw datasets or generated outputs.
+
+# Example: Ignore all CSV files in a 'data' folder
+# data/*.csv
+
+# Example: Ignore specific large raw data files
+# data/raw_data_very_large.csv
+# data/huge_image_dataset/
+
+# Example: Ignore output directories
+# results/
+# outputs/
+# models/           # If you save trained models locally and they are large
+# generated_plots/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables and sensitive files
+.env              # Common for environment variables (e.g., API keys)
+config.ini.local  # If you have local config files that shouldn't be shared
+secrets.py        # If you store sensitive info in a Python file
