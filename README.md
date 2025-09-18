@@ -43,3 +43,8 @@ Each notebook focuses on a specific dataset, illustrating the **steps from raw d
 - scikit-learn
 - matplotlib
 - seaborn
+
+
+## 🚀 Usage
+
+Navigate to the `notebooks/` directory and open any `.ipynb` file to explore the examples. Each notebook is self-contained and demonstrates a complete workflow from data loading to model evaluation.
