@@ -55,19 +55,19 @@ To get started with these notebooks, follow these steps:
 1.  **Clone the repository:**
     Open your terminal or command prompt and run:
     ```bash
-    git clone https://github.com/YourGitHubUsername/YourRepoName.git
+    git clone https://github.com/chiaraipp/Data-mining-exercises.git
     cd Data-Mining-Exercises
     ```
 
-2.  **Create a virtual environment:**
-    It's highly recommended to use a virtual environment to manage project dependencies.
+2.  **Use base Anaconda environment:**
+    It's highly recommended to use the same environment as the notebooks
     ```bash
-    python -m venv .venv
-    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    conda activate base
     ```
+    Alternatively you can create a new virtual environment and install the same dependencies,        but using the base environment will match the original setup. 
 
 3.  **Install dependencies:**
-    With your virtual environment activated, install all required Python packages:
+    With your environment activated, install all required Python packages:
     ```bash
     pip install -r requirements.txt
     ```
